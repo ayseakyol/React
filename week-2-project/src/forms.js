@@ -28,9 +28,8 @@ const ContactForm = () => {
               id="comment"
               name="comment"
               onChange={(event) => {
-                /* use event.target.value to set the comment */ setComment(
-                  event.target.value
-                );
+                /* use event.target.value to set the comment */ 
+    setComment(event.target.value);
               }}
             />
           </div>
@@ -42,9 +41,8 @@ const ContactForm = () => {
               name="name"
               aria-label="contact-name"
               onChange={(event) => {
-                /* use event.target.value to set the name */ setName(
-                  event.target.value
-                );
+                /* use event.target.value to set the name */ 
+                 setName(event.target.value);
               }}
             />
           </div>
